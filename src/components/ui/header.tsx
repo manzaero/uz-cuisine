@@ -32,10 +32,10 @@ export default function Header() {
                 {
                     navbarItems.map((item) => {
                         return <NavbarItem key={item.href}>
-                            <Link aria-current="page" href={item.href}>
-                                {item.label}
-                            </Link>
-                        </NavbarItem>
+                                    <Link aria-current="page" href={item.href}>
+                                        {item.label}
+                                    </Link>
+                                </NavbarItem>
                     })
                 }
             </NavbarContent>
