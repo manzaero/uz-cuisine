@@ -49,7 +49,7 @@ export default function Header() {
             style = {{height: layoutConfig.headerHeight}}
         >
             <NavbarBrand>
-                <Link href="/" className="flex gap-1">
+                <Link href="/public" className="flex gap-1">
                     <AcmeLogo/>
                     <p className="font-bold text-inherit">{siteConfig.description}</p>
                 </Link>
